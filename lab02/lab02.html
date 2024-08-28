@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Página</title>
+    <style>
+        body {
+            background-size: cover;
+            background-image: url(ga.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .cabecalho {
+
+            background-color: aliceblue;
+            border-radius: 30px;
+            margin: 90px;
+            text-align: center;
+            color: rgb(128, 181, 180);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 30px;
+        }
+
+        .text {
+
+            border-radius: 30px;
+            margin: 50px;
+            padding: 2px;
+            text-align: center;
+            background-color: aliceblue;
+        }
+
+        .list {
+            background-color: aliceblue;
+            border-radius: 30px;
+            margin: 50px;
+            padding: 2px;
+            text-align: left
+        }
+
+        .listnum {
+            background-color: aliceblue;
+            border-radius: 30px;
+            margin: 50px;
+            padding: 2px;
+            text-align: left
+        }
+        .forms {
+            background-color: aliceblue;
+            border-radius: 30px;
+            margin: 50px;
+            padding: 2px;
+            text-align: left
+        }
+        .container{
+            background-color: aliceblue;
+            border-radius: 30px;
+            margin: 50px;
+            padding: 2px;
+            text-align: left
+        }
+        .vid{
+            background-color: aliceblue;
+            border-radius: 30px;
+            margin: 50px;
+            padding: 2px;
+            text-align: left
+        }
+
+
+        p {
+            text-align: center;
+            text-align: justify;
+            font-size: 18px;
+            color: darkslategray;
+        }
+
+        h2 {
+            color: darkslategray;
+        }
+
+        h3 {
+            color: darkslategray;
+        }
+        h4 {
+            color: darkslategray;
+        }
+        h5 {
+            color: darkslategray;
+        }
+      
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        a {
+            color: olive;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h1>Hora de Aventura</h1>
+    </div>
+
+    <div class="text">
+        <h2>Sinopse</h2>
+        <p>Hora de Aventura (português brasileiro) ou Hora de Aventuras (português lusitano) (originalmente Adventure
+            Time) é uma série de animação americana criada por Pendleton Ward e produzida pela Frederator Studios. A
+            série é baseada em um curta que foi ao ar no quadro Random! Cartoons no canal NickToons em 2007, com a
+            intenção de se tornar uma nova série da Nickelodeon, entretanto, o estúdio recusou a ideia por ser "estranho
+            demais". Após o curta viralizar na internet, o Cartoon Network se ofereceu para produzir uma série.Hora de
+            Aventura acompanha a história de Finn, o Humano e Jake, o Cão, dois irmãos que buscam aventuras no
+            mundo pós-apocalíptico da Terra de Ooo.</p>
+        <h3>Enredo</h3>
+        <p>Finn (o humano) e Jake (o cão) percorrem um continente fictício chamado "Terra de Ooo" envolvendo-se em
+            aventuras fantásticas, salvando princesas e ajudando a todos que precisam.
+            As histórias ocorrem neste mundo pós-apocalíptico depois de um grande e importante evento chamado "A Grande
+            Guerra dos Cogumelos". Embora não seja explicitamente revelado, acredita-se que a Terra de Ooo seja a Terra
+            real, destruída após uma guerra nuclear, criando todas as criaturas que nela habitam (talvez por mutações
+            genéticas provenientes da radiação).</p>
+        <p>Vários episódios dão indícios desta teoria como em "Oceanos de Medo" onde um tanque de guerra pode ser visto
+            em um pequeno pedaço de terra ou mais tarde, quando Finn e Jake mergulham e vários automóveis podem ser
+            vistos no fundo do oceano. No episódio "Hora de Negócios" vários objetos como meias, bicicletas e TVs são
+            encontrados congelados em icebergs. Em "Você de Verdade" quando Finn usa os óculos de Nerdicon, o planeta
+            Terra pode ser brevemente visto do espaço, com um grande pedaço faltando, isso foi confirmado em "Filhos de
+            Marte" quando o Finn sai da Terra e pode ver claramente a cratera na Terra.</p>
+
+        <p>Aém disso, nos créditos iniciais, podemos ver ruínas e pilhas de entulhos que contêm coisas como carros,
+            TVs e algumas bombas nucleares não detonadas.</p>
+    </div>
+
+    <div class="list">
+        <h2>Personagens principais</h2>
+        <ul>
+            <li>Finn</li>
+            <li>Jake</li>
+            <li>Princesa jujuba</li>
+            <li>Marceline</li>
+        </ul>
+    </div>
+
+    <div class="listnum">
+        <h2>Primeiros episódios</h2>
+        <ol>
+            <li>Pânico na Festa do Pijama.</li>
+            <li>Problemas na Terra do Caroço.</li>
+            <li>Prisioneiras do Amor.</li>
+            <li>Dona Tromba.</li>
+            <li>O Enquirídio!.</li>
+        </ol>
+    </div>
+    <div class="forms">
+        <h4>Deseja receber atualizações? cadastre-se!</h4>
+        <form action="/enviar_formulario" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+            <label for="frutas">Idade:</label>
+            <select id="frutas" name="frutas">
+                <option value="maca">12 a 16</option>
+                <option value="banana">18 a 26</option>
+                <option value="laranja">+27</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div class="container">
+        <h4>Gráfico em Canvas</h4>
+        <canvas id="meuCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+        <script>
+            var c = document.getElementById("meuCanvas");
+            var ctx = c.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(20, 20, 150, 75);
+        </script>
+    </div>
+
+    <!-- Gráfico SVG -->
+    <div class="container">
+        <h5>Gráfico SVG</h5>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+        </svg>
+    </div>
+    <div class="vid">
+        <h3>Ending de Hora de aventura:</h3>
+    <video  width="640" height="360" controls>
+        <source src="Adventure Time _ End Credits (English) (HD).mp4" typ="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+    </video>
+    </div>
+</body>
+
+</html>
