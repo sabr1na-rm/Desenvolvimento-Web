@@ -8,17 +8,17 @@ const port = 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Rota para a página inicial
-app.get('/', (req, res) => {
+app.get('/principal', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Rota para a página "Sobre"
-app.get('/about', (req, res) => {
+app.get('/sobre', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'sobre.html'));
 });
 
 app.use((req, res) => {
-    res.end("404");
+    res.end("404 error");
 });
 
 // Inicia o servidor
