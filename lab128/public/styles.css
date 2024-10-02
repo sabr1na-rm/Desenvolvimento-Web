@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(to right, rgb(22, 48, 37), rgb(76, 143, 115));
+
+}
+
+.cadastro {
+
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    right: 50%;
+    left: 40%;
+    top: 32%;
+    margin: -100px -100px;
+
+    border-radius: 30px;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    background-color:rgb(22, 48, 37);
+    border-radius: 30px;
+    margin: 90px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    background-color: #ffffff;
+    /* Cor de fundo para e-mail */
+    border: 2px solid #24838a;
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 5px;
+
+}
+input[type="email"] {
+    background-color: #ffffff;
+    /* Cor de fundo para e-mail */
+    border: 2px solid #24838a;
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 5px;
+
+}
+button{
+    border: none;
+    padding: 10px 35px; /*width: 150px; Largura do button*/
+    display: inline-block; /*Centraliza o botão*/
+    margin: 15px;/*Espaçamento*/
+    border-radius: 20px;
+    background:rgb(22, 48, 37);
+    color:white;
+    transition: 0.5s ease;
+}
+button:hover{
+    background-color: rgb(40, 104, 121);
+    color: white;
+    transform: scale(1.2)
+}
