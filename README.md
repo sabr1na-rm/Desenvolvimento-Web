@@ -17,3 +17,7 @@ Rotas implementadas:
 - Página inicial: http://localhost:3000/principal
 - Página "Sobre": http://localhost:3000/sobre
 - Rota 404: Para tratar páginas não encontradas.
+________________________________________________________________________________________________________________________________________
+Laboratório 128: Desenvolvimento de um formulário com envio de email.
+
+Neste lab foi criado um formulário em HTML e CSS para envio de e-mails usando a plataforma FormSubmit. O formulário coletava nome, e-mail e mensagem, e, ao ser submetido, enviava os dados para um e-mail pré-configurado sem necessidade de back-end. A estilização foi feita com CSS para garantir um layout simples e responsivo.
