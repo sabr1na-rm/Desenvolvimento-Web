@@ -1,5 +1,7 @@
 body {
     background-image: linear-gradient(to right, rgb(22, 48, 37), rgb(76, 143, 115));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 .cadastro {
@@ -16,7 +18,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-footer {
+.rodape {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -24,16 +26,18 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    left: 0; /*Faz o rodape ficar na tela toda*/
+
 }
 
 h1 {
     background-color: rgb(22, 48, 37);
     border-radius: 30px;
-    margin: 90px;
+    margin: 40px;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
+    
 }
 
 h2 {
@@ -81,4 +85,20 @@ button:hover {
     background-color: rgb(40, 104, 121);
     color: white;
     transform: scale(1.2)
+}
+
+textarea {
+    background-color: #ffffff;
+    /* Cor de fundo para e-mail */
+    border: 2px solid #24838a;
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 5px;
+    width: 200px;
+    height:80px;
+    margin: 6px;
+
+}
+.dentro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
