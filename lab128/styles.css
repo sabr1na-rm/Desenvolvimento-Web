@@ -10,7 +10,7 @@ body {
     height: 500px;
     right: 50%;
     left: 40%;
-    top: 32%;
+    top: 27%;
     margin: -100px -100px;
     border-radius: 30px;
     padding: 2px;
@@ -87,7 +87,7 @@ button:hover {
     transform: scale(1.2)
 }
 
-textarea {
+.dentro {
     background-color: #ffffff;
     /* Cor de fundo para e-mail */
     border: 2px solid #24838a;
@@ -97,6 +97,7 @@ textarea {
     width: 200px;
     height:80px;
     margin: 6px;
+    resize: none;
 
 }
 .dentro{
