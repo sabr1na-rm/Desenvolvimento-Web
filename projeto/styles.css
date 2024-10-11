@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #6c0000;
+    color:aliceblue;
+}
+.logo {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.contato {
+    margin-top: 20px; /* Espaço acima do botão */
+}
+
+.contato a {
+    text-decoration: none;           /* Remove o sublinhado */
+    color: white;                   /* Cor do texto */
+    background-color: #6c0000;           /* Cor de fundo do botão */
+    padding: 10px 20px;             /* Espaçamento interno do botão */
+    border-radius: 5px;             /* Bordas arredondadas */
+    display: inline-block;           /* Permite padding e margem */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
+}
+
+.contato a:hover {
+    background-color: #980000;         /* Muda a cor de fundo ao passar o mouse */
+}
+.oficial {
+    margin-top: 20px; /* Espaço acima do botão */
+}
+
+.oficial a {
+    text-decoration: none;           /* Remove o sublinhado */
+    color: white;                   /* Cor do texto */
+    background-color: #6c0000;           /* Cor de fundo do botão */
+    padding: 10px 20px;             /* Espaçamento interno do botão */
+    border-radius: 5px;             /* Bordas arredondadas */
+    display: inline-block;           /* Permite padding e margem */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
+}
+
+.oficial a:hover {
+    background-color: #980000;         /* Muda a cor de fundo ao passar o mouse */
+}
+.menu {
+    
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding: 10px;
+}
+.menu a {
+    text-decoration: none;           /* Remove o sublinhado padrão dos links */
+    color: white;                   /* Define a cor do texto como branco */
+    background-color: #6c0000;         /* Define a cor de fundo do botão */
+    padding: 10px 20px;             /* Adiciona espaçamento interno ao botão */
+    border-radius: 5px;             /* Arredonda os cantos do botão */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor ao passar o mouse */
+}
+.menu a:hover {
+    background-color: #980000;         /* Muda a cor de fundo para um tom mais claro ao passar o mouse */
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu-icon {
+    font-size: 24px;
+    display: none;
+}
+
+.sobre-nos {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.left-box, .right-box {
+    width: 40%;
+    height: 300px;
+    border: 1px solid black;
+}
+.left-box{
+    display: flex; /* Habilita o uso de flexbox */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    text-align: center; /* Centraliza o texto dentro das caixas */
+}
+
+
+
+

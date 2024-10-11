@@ -1,0 +1,105 @@
+body {
+    background-image: linear-gradient(to right, rgb(1, 0, 65) ,rgb(101, 0, 0));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.cadastro {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    right: 50%;
+    left: 40%;
+    top: 27%;
+    margin: -100px -100px;
+    border-radius: 30px;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.rodape {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0; /*Faz o rodape ficar na tela toda*/
+
+}
+
+h1 {
+    background-color: rgb(101, 0, 0);
+    border-radius: 30px;
+    margin: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    background-color: #ffffff;
+    /* Cor de fundo para e-mail */
+    border: 2px solid rgb(101, 0, 0);
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 5px;
+}
+
+input[type="email"] {
+    background-color: #ffffff;
+    /* Cor de fundo para e-mail */
+    border: 2px solid rgb(101, 0, 0);
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    padding: 10px 35px;
+    /*width: 150px; Largura do button*/
+    display: inline-block;
+    /*Centraliza o botão*/
+    margin: 15px;
+    /*Espaçamento*/
+    border-radius: 20px;
+    background: rgb(101, 0, 0);
+    color: white;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    background-color: rgb(144, 0, 0);
+    color: white;
+    transform: scale(1.2)
+}
+
+.dentro {
+    background-color: #ffffff;
+    /* Cor de fundo para e-mail */
+    border: 2px solid rgb(101, 0, 0);
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 5px;
+    width: 200px;
+    height:80px;
+    margin: 6px;
+    resize: none;
+
+}
+.dentro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
